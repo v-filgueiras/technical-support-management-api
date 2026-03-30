@@ -1,0 +1,10 @@
+package com.vfilgueiras.Residential_Technical_Support_Management_API.domain.repository;
+
+import com.vfilgueiras.Residential_Technical_Support_Management_API.domain.entity.CustomerEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.UUID;
+
+@Repository
+public interface CustomerRepository extends JpaRepository<CustomerEntity, UUID> {}
